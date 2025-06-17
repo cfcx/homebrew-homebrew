@@ -4,11 +4,11 @@ class SunshineBeta < Formula
   conflicts_with "sunshine", because: "sunshine and sunshine-beta cannot be installed at the same time"
   desc "Self-hosted game stream host for Moonlight"
   homepage "https://app.lizardbyte.dev/Sunshine"
-  url "https://gitee.com/c64/Sunshine.git",
+  url "https://github.com/cfcx/Sunshine.git",
     tag: "v2025.615.34501"
   version "2025.615.34501"
   license all_of: ["GPL-3.0-only"]
-  head "https://gitee.com/c64/Sunshine.git", branch: "master"
+  head "https://github.com/cfcx/Sunshine.git", branch: "master"
 
   # https://docs.brew.sh/Brew-Livecheck#githublatest-strategy-block
   livecheck do
