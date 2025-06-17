@@ -8,7 +8,7 @@ class SunshineBeta < Formula
     tag: "v2025.615.34501"
   version "2025.615.34501"
   license all_of: ["GPL-3.0-only"]
-  head "https://github.com/LizardByte/Sunshine.git", branch: "master"
+  head "https://gitee.com/c64/Sunshine.git", branch: "master"
 
   # https://docs.brew.sh/Brew-Livecheck#githublatest-strategy-block
   livecheck do
